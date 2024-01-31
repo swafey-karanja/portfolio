@@ -79,6 +79,7 @@ export default function Portfolio() {
           />
         ))}
       </ul>
+      <hr/>
       <div className="container">
         {data.map((d) => (
           <div className="item">

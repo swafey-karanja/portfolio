@@ -1,1 +1,10 @@
-$mainColor:white;
+$mainColor: white;
+
+$width: 768px; // Setting the maximum width for the media query
+
+// Defining a mixin named 'mobile'
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content; // This includes the content inside the media query
+    }
+}

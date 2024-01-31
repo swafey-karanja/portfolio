@@ -42,7 +42,7 @@ export default function Work() {
   return (
     <div className='work' id="work">
       <div className="slider"
-      style={{transform:`translateX(-${currentSlide * 100}vw)`}}
+        style={{transform:`translateX(-${currentSlide * 100}vw)`}}
       >
        {data.map((d) => (
          <div className="container">
